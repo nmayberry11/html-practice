@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                <meta charset="UTF-8">
+                <meta name="author" content="Nick Mayberry">
+                <meta name="description" content="This page contains all the things I am learning">
+<title>My first Webpage</title>
+<link rel="icon" href="html5.png" type="image/x-icon">
+<link rel="stylesheet" href="main.css" type="text/css">
+        </head>
+        <body>
+                <header>
+                
+                        <h1>My Goals for the Year</h1>
+                <nav aria-labelledby="primary-navigation">
+                        
+                        <ul>
+                                <li>
+                                        <a href="#html">Learn HTML</a>
+                                        
+                                </li>
+                                <li>
+                                        <a href="#vacation">Planning a Vacation</a>
+                                </li>
+                                <li>
+                                        <a href="#contact">Contact Me</a>
+                                </li>
+                        </ul>
+                </nav>
+
+                </header>
+
+                <hr>
+
+                <main>
+
+                <article id="html">
+                <h2>I'm ready to learn html</h2>
+                <p>This is my first webpage.</p>
+                <section>
+                        <h3>HTML 5</h3>
+                <img src="img/html logo2.png" alt="HTML5 Logo" title="I am learning HTML" width="200" height="200">
+
+                <figure>
+                        <figcaption>
+                                An Example of HTML5 code
+                        </figcaption>
+                        <p>
+                                <code>
+                                        &lt;h1&gt;Hello World!&lt;/h1&gt;
+                                </code>
+                        </p>
+                </figure>
+                </section>
+                <section>
+                <h3>My Daily Schedule</h3>
+                <p>Let me tell you how:</p>
+                <ol>
+                        <li>...I learn more about web dev.</li>
+                        <li>...I plan out my Schedule.</li>
+                        <li>...I use resources from <abbr title="Mozilla Developer Network">
+                                <a href="https://developer.mozilla.org/">MDN</a>
+                        </abbr></li>
+                </ol>
+                <aside>
+                        <details>
+                                <summary>
+                                        Guess the <mark> number of hours</mark> I code per day
+                                </summary>
+                                <p>I start at <time datetime="8:00am">8 am</time> am and I write code for <time datetime="PT3H">three hours </time> every morning.
+
+                                </p>
+                        </details>
+                </aside>
+                <br>
+                <table>
+                        <caption>My Daily Schedule</caption>
+                        <thead>
+                        <tr>
+                                <th>&nbsp;</th>
+                                <th scope="col">Time</th>
+                                <th scope="col">Activity</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                                <tr> 
+                                        <th scope="row">Morning</th>
+                                <td>
+                                        <time datetime="08:00">8am</time>
+                                        <time datetime="11:00">11am</time>
+                                </td>
+                                <td>Write Code</td>
+                        </tr>
+                        <tr>
+                                <th scope="row">Break</th>
+                                <td>
+                                        <time datetime="11:00">11am</time>
+                                        <time datetime="12:00">12pm</time>
+                                </td>
+                                <td>Eat Lunch</td>
+                        </tr>
+                        <tr>
+                                <th scope="row">Afternoon</th>
+                                <td>
+                                        <time datetime="12:00">12pm</time>
+                                        <time datetime="17:00">5pm</time>
+                                </td>
+                                <td>Study for Other Courses</td>
+                        </tr>
+                        <tr>
+                                <th scope="row">Evening</th>
+                                <td rowspan="2">All Other Times</td>
+                                <td>Free Time</td>
+                                </tr>
+                                <tr>
+                                        <th scope="row">Night</th>
+                                <td>Sleep</td>
+                                </tr>
+                        </tbody>
+                        <tfoot>
+                                <tr>
+                                        <td colspan="3">And that's what I do everyday, 5 days a week. Jsut eat, sleep, code, and recharge!</td>
+                                </tr>
+                        </tfoot>
+                        
+                </table>
+
+                </section>
+                 </article>      
+                <hr>
+                 <article id="vacation">
+                <h2>I am also planning a Vacation</h2>
+                <p>I've been working hard and <em>really need a getaway</em>.</p>
+                <p>I live in Kansas so I want to visit a beach.</p>
+                
+                <section>
+
+                <h3>Places I'd like to Visit</h3>
+                <ul>
+                <li><p>I've heard good things about Ireland.</p></li>
+                <figure>
+                        <img src="img/irish coast.jpg" alt="Irish Castle on the Coast" title="Irish Coast" width="500" loading="lazy">
+                        <figcaption>
+                                The ruins of Dunluce Castle overlook the ocean in Northern Ireland. 
+                        </figcaption>
+                </figure>
+                <li><p>I've also heard good things about Alaska.</p></li>
+                <figure>
+                        <img src="img/alaska.jpeg" alt="Northern lights in Alaska" title="Night sky in Alaska" width="500" loading="lazy">
+                        <figcaption>The northern lights glow over Fairbanks.</figcaption>
+                </figure>
+                 </ul>
+                </section>
+
+
+                <section>
+                 <h3>Places I'd like to Avoid</h3>
+                <dl>
+                        <dt>North Pole</dt>
+                        <dd>I hear this is <strong>cold</strong></dd>
+
+                        <dt>South Pole</dt>
+                        <dd>This is also cold.</dd>
+
+                        <dt>Deserts</dt>
+                        <dd>These are too hot.</dd>
+                </dl>
+                </section>
+                </article>
+                <hr>
+                <article id="contact">
+                        <h2>Contact Me</h2>
+                        <p>I'd really like to hear from you.</p>
+                        <form action="https://httpbin.org/get" method="get">
+                                <label for="firstName">First Name:</label>
+                                <input type="text" name="firstName" id="firstName" placeholder="Jane" autocomplete="on">
+                        </form>
+                </article>
+
+                </main>
+
+                <hr>
+
+                <footer>
+                        <p>
+                &lt;&lt;&lt; &copy; <a href="about.html">Nick Mayberry</a> &gt;&gt;&gt;
+                </p>
+                
+                <p>
+                        <a href="#">Back to Top</a>
+                </p>
+
+                </footer>
+
+        </body>
+</html>
